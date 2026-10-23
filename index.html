@@ -1,0 +1,985 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Florêncio &amp; Florêncio Advogados Associados | Terenos e Caracol – MS</title>
+<meta name="description" content="Escritório de advocacia em Terenos e Caracol (MS). Direito Civil, Família e Sucessões, Trabalhista, Previdenciário e Empresarial. Atendimento presencial e on-line.">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Florêncio &amp; Florêncio Advogados Associados">
+<meta property="og:description" content="Escritório de advocacia em Terenos e Caracol (MS). Direito Civil, Família e Sucessões, Trabalhista, Previdenciário e Empresarial. Atendimento presencial e on-line.">
+<meta property="og:image" content="img/compartilhar.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LegalService", "name": "Florêncio & Florêncio Advogados Associados", "image": "img/compartilhar.jpg", "telephone": "+55 67 99287-5877", "email": "florencioeflorencio_adv@hotmail.com", "address": {"@type": "PostalAddress", "streetAddress": "Rua Pedro Celestino, 25 – Centro", "addressLocality": "Terenos", "addressRegion": "MS", "postalCode": "79109-000", "addressCountry": "BR"}, "areaServed": ["Terenos – MS", "Caracol – MS"], "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "07:30", "closes": "11:30"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "13:00", "closes": "17:30"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "07:30", "closes": "11:30"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "13:30", "closes": "17:30"}], "sameAs": ["https://www.instagram.com/fef_advocacia/", "https://www.facebook.com/p/Flor%C3%AAncio-e-Flor%C3%AAncio-Advogados-Associados-61558688937364/"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Montserrat:wght@200;300;400;500;600&family=Mulish:wght@300;400;600&display=swap">
+<style>
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+
+/* Layout: site institucional claro e minimalista — menu centralizado no topo, abertura com fundo
+   esfumado e nome em traço fino, blocos alternando imagem e texto com cantos arredondados,
+   carrossel do quadro jurídico, publicações e rodapé em degradê lavanda.
+   Tema único e claro por escolha, fiel ao site de referência. */
+:root {
+  --bg: #FFFFFF;
+  --band: #EEEEEF;        /* faixa cinza-clara das seções alternadas */
+  --ink: #3B3A3E;         /* texto principal */
+  --muted: #6E7180;       /* texto secundário */
+  --lav: #9295A6;         /* cinza-lavanda: títulos e botões */
+  --lav-light: #A2ABBB;
+  --lav-soft: #D9DCE8;
+  --line: #C9CCD6;
+  --gold: #B8975A;        /* dourado discreto das ilustrações */
+
+  --f-head: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Mulish", "Helvetica Neue", Arial, sans-serif;
+
+  --wrap: 1120px;
+  --gutter: clamp(16px, 4vw, 40px);
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.7; }
+a { color: inherit; }
+h1, h2, h3 { margin: 0; font-family: var(--f-head); font-weight: 500; text-wrap: balance; }
+p { margin: 0; }
+:focus-visible { outline: 2px solid var(--lav); outline-offset: 3px; }
+.wrap { max-width: var(--wrap); margin-inline: auto; padding-inline: var(--gutter); }
+
+/* ---------- Menu ---------- */
+.site-header {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: rgba(255, 255, 255, .96); backdrop-filter: blur(6px);
+}
+.site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 152px; position: relative; }
+.brand { display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--ink); flex: none; }
+.brand-logo { display: block; height: 136px; width: auto; transition: height .35s ease, transform .4s ease; }
+.site-header.scrolled .brand-logo { height: 84px; }
+.site-header .wrap { transition: min-height .35s ease; }
+.site-header.scrolled .wrap { min-height: 96px; }
+.brand:hover .brand-logo { transform: scale(1.04); }
+.nav { display: flex; gap: clamp(4px, 1.2vw, 18px); align-items: center; }
+.nav a {
+  text-decoration: none; font-family: var(--f-head); font-size: 15.5px; font-weight: 400; color: var(--ink);
+  padding: 6px 10px; border-bottom: 1.5px solid transparent; transition: border-color .2s, color .2s;
+}
+.nav a:hover { color: var(--lav); }
+.nav a.active { border-bottom-color: var(--ink); }
+.menu-btn { display: none; }
+@media (max-width: 1100px) {
+  .site-header .wrap { min-height: 72px; }
+  .brand-logo { height: 92px; }
+  .site-header.scrolled .brand-logo { height: 64px; }
+  .site-header.scrolled .wrap { min-height: 76px; }
+    .menu-btn {
+    display: grid; place-items: center; width: 44px; height: 44px; background: none; border: 0; cursor: pointer; color: var(--ink);
+  }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 22px; height: 1.5px; background: currentColor; position: relative; content: ""; }
+  .menu-btn span::before { position: absolute; top: -7px; } .menu-btn span::after { position: absolute; top: 7px; }
+  .nav {
+    position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0;
+    background: var(--bg); padding: 4px var(--gutter) 16px; box-shadow: 0 12px 24px rgba(60, 60, 80, .08);
+  }
+  .nav:not(.open) { display: none; }
+  .nav a { padding: 14px 4px; border-bottom: 1px solid var(--band); }
+  .nav a.active { border-bottom-color: var(--band); color: var(--lav); }
+}
+
+/* ---------- Abertura ---------- */
+.hero {
+  position: relative; overflow: hidden; min-height: clamp(340px, 52vw, 560px);
+  display: grid; place-items: center; text-align: center; padding: 64px var(--gutter);
+  background:
+    radial-gradient(60% 90% at 18% 70%, rgba(255,255,255,.95) 0%, rgba(255,255,255,0) 60%),
+    radial-gradient(45% 70% at 72% 35%, rgba(205,210,224,.9) 0%, rgba(205,210,224,0) 70%),
+    radial-gradient(35% 60% at 88% 85%, rgba(182,188,206,.75) 0%, rgba(182,188,206,0) 70%),
+    radial-gradient(40% 60% at 35% 15%, rgba(226,229,238,.9) 0%, rgba(226,229,238,0) 70%),
+    linear-gradient(135deg, #F4F5F9 0%, #E3E6EE 50%, #F2F3F7 100%);
+}
+.hero::before {
+  /* reflexo curvo, como vidro desfocado */
+  content: ""; position: absolute; width: 90%; aspect-ratio: 1; left: 30%; top: -55%;
+  border-radius: 50%; border: 38px solid rgba(255,255,255,.55); filter: blur(18px);
+}
+.hero::after {
+  content: ""; position: absolute; width: 70%; aspect-ratio: 1; left: -25%; top: 35%;
+  border-radius: 50%; border: 26px solid rgba(170,176,196,.28); filter: blur(22px);
+}
+.hero-inner { position: relative; z-index: 1; }
+.hero h1 {
+  font-weight: 300; font-size: clamp(32px, 5.4vw, 64px); letter-spacing: .04em; color: var(--lav-light); line-height: 1.2;
+}
+.hero .tag {
+  margin-top: 10px; font-family: var(--f-head); font-weight: 400; font-size: clamp(12px, 1.3vw, 15px);
+  letter-spacing: .28em; text-transform: uppercase; color: var(--lav-light);
+}
+.divider { height: 0; border: 0; border-top: 2px solid var(--line); max-width: 860px; margin: 22px auto; width: calc(100% - 2 * var(--gutter)); }
+
+/* ---------- Blocos imagem + texto ---------- */
+section { scroll-margin-top: 104px; }
+.feature { padding-block: clamp(40px, 6vw, 72px); }
+.feature.band { background: var(--band); }
+.feature .wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 6vw, 80px); align-items: center; }
+.feature.reverse .media { order: -1; }
+.feature .text { display: flex; flex-direction: column; gap: 18px; min-width: 0; max-width: 440px; }
+.feature.reverse .text { justify-self: start; }
+.feature:not(.reverse) .text { justify-self: end; }
+.feature h2 { font-size: clamp(28px, 3.4vw, 40px); color: var(--lav); line-height: 1.25; }
+.feature p { color: var(--muted); font-size: 15.5px; }
+.more { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .35s ease; }
+.more > div { overflow: hidden; }
+.more.open { grid-template-rows: 1fr; }
+.more p + p { margin-top: 12px; }
+.pill {
+  align-self: flex-start; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font: 400 14px/1 var(--f-head); color: #FFFFFF; background: var(--lav); border: 0; cursor: pointer;
+  padding: 13px 26px; border-radius: 999px; text-decoration: none; transition: background .2s, transform .2s;
+}
+.pill:hover { background: #7E8194; transform: translateY(-1px); }
+
+.media {
+  position: relative; aspect-ratio: 5 / 4; max-width: 100%; overflow: hidden;
+  border-radius: 0 0 90px 0; min-width: 0;
+}
+.feature.reverse .media { border-radius: 0 90px 0 0; }
+.media.rounded { border-radius: 28px; }
+.media svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 55% 45%; }
+.m-photo { background: #14161C; }
+.media.wide { aspect-ratio: 2 / 1; } /* foto panorâmica: mostra o martelo e a carteira sem ampliar demais */
+.m-office { background: linear-gradient(160deg, #F7F7FA 0%, #DADDE7 55%, #C3C7D5 100%); }
+.m-family { background: radial-gradient(70% 70% at 30% 40%, #FFFFFF 0%, #ECEDF2 45%, #D3D6E0 100%); }
+.m-civil  { background: linear-gradient(180deg, #4A4C57 0%, #2E2F37 100%); }
+.m-work   { background: linear-gradient(160deg, #F6F7FA 0%, #DDE1EA 60%, #C9CEDC 100%); }
+.m-prev   { background: radial-gradient(80% 80% at 70% 30%, #FFFFFF 0%, #ECEDF2 50%, #D3D6E0 100%); }
+.m-team   { background: linear-gradient(170deg, #FBFBFC 0%, #E7E8EE 60%, #D1D4DF 100%); }
+@media (max-width: 820px) {
+  .feature .wrap { grid-template-columns: 1fr; }
+  .feature .text, .feature:not(.reverse) .text { justify-self: start; max-width: none; }
+  .feature .media { order: -1; }
+  .media { aspect-ratio: 16 / 10; border-radius: 0 0 56px 0; }
+  .feature.reverse .media { border-radius: 0 56px 0 0; }
+}
+
+/* ---------- Carrossel do quadro jurídico ---------- */
+.team { padding-block: clamp(40px, 6vw, 72px); }
+.carousel { position: relative; max-width: 900px; margin-inline: auto; }
+.slides { display: grid; }
+.slide {
+  grid-area: 1 / 1; opacity: 0; visibility: hidden; transition: opacity .45s ease, visibility .45s;
+  display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 48px); align-items: stretch;
+  background: linear-gradient(120deg, #F3F4F7 0%, #E4E6EE 100%); padding: clamp(24px, 4vw, 48px); border-radius: 4px;
+}
+.slide.is-active { opacity: 1; visibility: visible; }
+.slide .bio { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.slide h3 { font-weight: 400; font-size: clamp(22px, 2.6vw, 30px); color: var(--lav); line-height: 1.3; }
+.slide .oab { font-size: 14px; color: var(--muted); }
+.slide .mail { font-size: 14px; color: var(--muted); overflow-wrap: anywhere; }
+.slide .bio { justify-content: center; }
+.slide .bio p.txt { font-size: 15.5px; color: var(--muted); margin-top: 6px; }
+.portrait {
+  border-radius: 4px; min-height: 380px; position: relative; overflow: hidden;
+  background: linear-gradient(180deg, #D7DAE3 0%, #B9BDCB 100%);
+}
+.portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; transition: transform .8s ease; }
+.slide:hover .portrait img { transform: scale(1.03); }
+.slide .role { font-family: var(--f-head); font-size: 13px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin-top: -4px; }
+.portrait .ini {
+  position: absolute; top: 16px; left: 18px; font-family: var(--f-head); font-weight: 300; font-size: 13px; letter-spacing: .2em; color: #FFFFFF;
+}
+.car-nav { display: flex; justify-content: center; align-items: center; gap: 18px; margin-top: 22px; }
+.car-btn {
+  width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--bg); color: var(--lav);
+  cursor: pointer; display: grid; place-items: center; transition: background .2s, color .2s;
+}
+.car-btn:hover { background: var(--lav); color: #FFFFFF; }
+.car-btn svg { width: 16px; height: 16px; }
+.dots { display: flex; gap: 10px; }
+.dot { position: relative; width: 9px; height: 9px; border-radius: 50%; border: 0; padding: 0; background: var(--lav-soft); cursor: pointer; }
+.dot::after { content: ""; position: absolute; inset: -16px -6px; }
+.dot[aria-current="true"] { background: var(--lav); }
+@media (max-width: 680px) {
+  .slide { grid-template-columns: 1fr; }
+  .portrait { min-height: 340px; order: -1; }
+}
+
+/* ---------- Publicações ---------- */
+.pubs { padding-block: clamp(48px, 7vw, 88px); }
+.pub-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(20px, 3vw, 36px); max-width: 960px; margin-inline: auto; }
+.pub-card {
+  display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 22px; align-items: start;
+  padding: clamp(22px, 3vw, 34px); border: 1px solid var(--band); border-radius: 6px; background: var(--bg);
+}
+.pub-card .ico { width: 92px; height: 66px; border-radius: 4px; background: linear-gradient(135deg, #E7E9F0, #C9CDDA); display: grid; place-items: center; }
+.pub-card .ico svg { width: 40px; height: 40px; }
+.pub-card h3 { font-size: 22px; color: var(--lav); font-weight: 500; }
+.pub-card p { color: var(--muted); font-size: 15px; margin-block: 8px 16px; }
+@media (max-width: 760px) { .pub-grid { grid-template-columns: 1fr; } }
+@media (max-width: 420px) { .pub-card { grid-template-columns: 1fr; } }
+
+.section-title { text-align: center; font-weight: 400; font-size: clamp(28px, 3.4vw, 40px); color: var(--lav-light); margin-bottom: clamp(28px, 4vw, 48px); }
+
+/* Artigos (grade como "Publicações na Mídia") */
+.articles { padding-block: 0 clamp(56px, 8vw, 96px); }
+.art-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(18px, 2.4vw, 28px); max-width: 780px; margin-inline: auto; }
+.art {
+  aspect-ratio: 3 / 4; max-width: 100%; border-radius: 10px; overflow: hidden; position: relative;
+  display: flex; flex-direction: column; justify-content: flex-end; padding: 18px; color: #FFFFFF;
+  background: linear-gradient(170deg, #B7BCD0 0%, #8E93A8 100%);
+  box-shadow: 0 10px 24px rgba(80, 84, 110, .15); transition: transform .25s;
+}
+.art:hover { transform: translateY(-4px); }
+.art:nth-child(2) { background: linear-gradient(170deg, #C9C2D6 0%, #948BA6 100%); }
+.art:nth-child(3) { background: linear-gradient(170deg, #BFC8D2 0%, #8A95A3 100%); }
+.art:nth-child(4) { background: linear-gradient(170deg, #D1CCD8 0%, #9A93A6 100%); }
+.art:nth-child(5) { background: linear-gradient(170deg, #B4BDCF 0%, #7F889C 100%); }
+.art:nth-child(6) { background: linear-gradient(170deg, #C6C9D6 0%, #8F92A4 100%); }
+.art .cat { font-family: var(--f-head); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; opacity: .85; }
+.art h3 { font-size: 16px; font-weight: 500; line-height: 1.35; margin-top: 6px; }
+.art .law { font-size: 12px; margin-top: 10px; opacity: .85; }
+.art::before {
+  content: "§"; position: absolute; top: 8px; right: 16px; font-family: var(--f-head); font-weight: 200; font-size: 64px; line-height: 1; opacity: .35;
+}
+@media (max-width: 640px) { .art-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* ---------- Contato ---------- */
+.contact { background: var(--band); padding-block: clamp(48px, 7vw, 88px); }
+.contact .wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: clamp(28px, 5vw, 72px); }
+.contact h2 { font-size: clamp(28px, 3.4vw, 40px); color: var(--lav); font-weight: 500; margin-bottom: 14px; }
+.contact .lede { color: var(--muted); font-size: 15.5px; }
+.info { list-style: none; padding: 0; margin: 28px 0 0; display: flex; flex-direction: column; gap: 16px; font-size: 15px; }
+.info a { text-decoration: none; border-bottom: 1px solid var(--lav-soft); }
+.info a:hover { border-color: var(--lav); }
+.mail-link { overflow-wrap: anywhere; }
+.info .k { display: block; font-family: var(--f-head); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--lav); }
+.form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-content: start; }
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.field.full { grid-column: 1 / -1; }
+.field label { font-family: var(--f-head); font-size: 13px; color: var(--muted); }
+.field input, .field select, .field textarea {
+  font: 16px/1.4 var(--f-body); color: var(--ink); background: var(--bg); width: 100%;
+  border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px;
+}
+.field textarea { min-height: 130px; resize: vertical; }
+.field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--lav); box-shadow: 0 0 0 3px var(--lav-soft); }
+.consent { grid-column: 1 / -1; display: flex; gap: 10px; font-size: 13.5px; color: var(--muted); align-items: flex-start; }
+.consent input { margin-top: 2px; width: 20px; height: 20px; flex: none; accent-color: var(--lav); }
+.form .pill { grid-column: 1 / -1; justify-self: start; }
+.form-status { grid-column: 1 / -1; font-size: 14.5px; padding: 12px 16px; border-radius: 6px; background: var(--bg); border: 1px solid var(--line); }
+.form-status a { color: var(--lav); font-weight: 600; }
+.form-status .err { color: #A13A3A; }
+@media (max-width: 820px) { .contact .wrap { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .form { grid-template-columns: 1fr; } }
+
+/* ---------- Rodapé ---------- */
+.site-footer {
+  background: linear-gradient(180deg, #FFFFFF 0%, #E9EAF2 45%, #CDD0E0 100%);
+  padding-block: clamp(56px, 8vw, 96px) 28px; font-size: 14px; color: var(--ink);
+}
+.foot-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.foot-name { font-family: var(--f-head); font-size: 17px; font-weight: 400; }
+.foot-links { display: flex; flex-direction: column; gap: 4px; margin-top: 10px; }
+.foot-links a { color: var(--muted); font-size: 13px; }
+.social { display: flex; gap: 12px; margin-top: 12px; }
+.social a { width: 44px; height: 44px; border-radius: 50%; background: var(--lav); color: #FFFFFF; display: grid; place-items: center; }
+.social a:hover { background: #7E8194; }
+.social svg { width: 16px; height: 16px; fill: currentColor; }
+.copy { margin-top: 44px; text-align: center; font-size: 12.5px; color: var(--muted); display: flex; flex-direction: column; gap: 4px; }
+@media (max-width: 760px) { .foot-grid { grid-template-columns: 1fr; } }
+
+/* WhatsApp flutuante */
+.wa {
+  position: fixed; right: 18px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 30;
+  width: 60px; height: 60px; border-radius: 50%; display: block;
+  box-shadow: 0 8px 22px rgba(40, 90, 50, .3); transition: transform .2s;
+}
+.wa:hover { transform: scale(1.06); }
+.wa img { width: 100%; height: 100%; display: block; }
+
+/* ================= Vida: movimentos sutis ================= */
+/* Menu ganha sombra ao rolar */
+.site-header { transition: box-shadow .3s ease; }
+.site-header.scrolled { box-shadow: 0 6px 24px rgba(70, 74, 100, .08); }
+.nav a { position: relative; }
+
+/* Abertura: entrada do nome e reflexos que se movem devagar */
+.hero::before { animation: drift-a 18s ease-in-out infinite alternate; }
+.hero::after  { animation: drift-b 22s ease-in-out infinite alternate; }
+@keyframes drift-a { to { transform: translate(-6%, 8%) rotate(8deg); } }
+@keyframes drift-b { to { transform: translate(8%, -6%) rotate(-6deg); } }
+.hero h1   { animation: rise 1.1s cubic-bezier(.2,.7,.2,1) both; }
+.hero .tag { animation: rise 1.1s .35s cubic-bezier(.2,.7,.2,1) both, spacing 1.6s .35s ease-out both; }
+.hero-rule {
+  display: block; width: 64px; height: 1.5px; margin: 16px auto 4px; background: var(--gold);
+  transform-origin: center; animation: grow 1s .25s cubic-bezier(.2,.7,.2,1) both;
+}
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+@keyframes spacing { from { letter-spacing: .5em; } to { letter-spacing: .28em; } }
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.scroll-cue {
+  position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); z-index: 1;
+  width: 26px; height: 42px; border: 1.5px solid var(--lav-light); border-radius: 14px;
+}
+.scroll-cue span {
+  position: absolute; left: 50%; top: 8px; width: 4px; height: 8px; margin-left: -2px; border-radius: 2px; background: var(--lav);
+  animation: wheel 1.8s ease-in-out infinite;
+}
+@keyframes wheel { 0% { transform: translateY(0); opacity: 1; } 70% { transform: translateY(14px); opacity: 0; } 100% { transform: translateY(0); opacity: 0; } }
+@media (max-width: 600px) { .scroll-cue { display: none; } }
+
+/* Detalhe dourado sob os títulos das seções */
+.feature h2::after, .contact h2::after {
+  content: ""; display: block; width: 44px; height: 2px; background: var(--gold); margin-top: 14px;
+  transform-origin: left; transition: width .5s ease;
+}
+.feature .text:hover h2::after { width: 84px; }
+.section-title::after { content: ""; display: block; width: 44px; height: 2px; background: var(--gold); margin: 14px auto 0; }
+
+/* Botões "Saiba Mais": seta que aparece e brilho ao passar o mouse */
+.pill { position: relative; overflow: hidden; gap: 0; }
+.pill::after {
+  content: "→"; display: inline-block; width: 0; opacity: 0; transform: translateX(-6px);
+  transition: width .25s ease, margin .25s ease, opacity .25s ease, transform .25s ease;
+}
+.pill:hover::after { width: 14px; margin-left: 8px; opacity: 1; transform: none; }
+.pill::before {
+  content: ""; position: absolute; top: 0; bottom: 0; left: -60%; width: 40%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.35), transparent);
+  transform: skewX(-20deg); transition: left .6s ease;
+}
+.pill:hover::before { left: 130%; }
+
+/* Ilustrações: movimento lento e zoom suave ao passar o mouse */
+.media { box-shadow: 0 18px 40px rgba(70, 74, 100, .12); }
+.media svg, .media img { transition: transform 1.2s cubic-bezier(.2,.7,.2,1); }
+.feature:hover .media svg, .feature:hover .media img { transform: scale(1.04); }
+.beam { transform-box: view-box; transform-origin: 250px 115px; animation: sway 6s ease-in-out infinite; }
+.pan-l { transform-box: view-box; transform-origin: 130px 115px; animation: counter 6s ease-in-out infinite; }
+.pan-r { transform-box: view-box; transform-origin: 370px 115px; animation: counter 6s ease-in-out infinite; }
+@keyframes sway    { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+@keyframes counter { 0%, 100% { transform: rotate(4deg); }  50% { transform: rotate(-4deg); } }
+.glint { opacity: 0; animation: glint 6s ease-in-out infinite; mix-blend-mode: screen; }
+@keyframes glint { 0%, 70%, 100% { opacity: 0; } 80% { opacity: .5; } }
+.gavel { transform-box: view-box; animation: tap 4.5s ease-in-out infinite; }
+@keyframes tap { 0%, 78%, 100% { transform: rotate(0); } 84% { transform: rotate(-10deg); } 90% { transform: rotate(3deg); } }
+.lamp { animation: breathe 5s ease-in-out infinite; }
+@keyframes breathe { 0%, 100% { opacity: .6; } 50% { opacity: 1; } }
+.window-light { animation: breathe 8s ease-in-out infinite; }
+.stroke-draw { stroke-dasharray: 1; stroke-dashoffset: 0; animation: draw 7s ease-in-out infinite; }
+@keyframes draw { 0% { stroke-dashoffset: 1; } 40%, 100% { stroke-dashoffset: 0; } }
+
+/* Entrada ao rolar: só deslocamento, o conteúdo está sempre visível */
+@supports (animation-timeline: view()) {
+  .feature .text, .feature .media, .carousel, .pub-card, .art, .contact .wrap > * {
+    animation: slide-in linear both; animation-timeline: view(); animation-range: entry 0% entry 60%;
+  }
+  .feature .media { animation-name: slide-in-media; }
+  .art:nth-child(3n+2) { animation-range: entry 8% entry 68%; }
+  .art:nth-child(3n)   { animation-range: entry 16% entry 76%; }
+}
+@keyframes slide-in { from { transform: translateY(36px); } to { transform: none; } }
+@keyframes slide-in-media { from { transform: translateY(36px) scale(.97); } to { transform: none; } }
+
+/* Carrossel: a foto e o texto deslizam ao trocar de advogado */
+.slide .bio, .slide .portrait { transition: transform .6s cubic-bezier(.2,.7,.2,1); transform: translateX(16px); }
+.slide .portrait { transform: translateX(-16px); }
+.slide.is-active .bio, .slide.is-active .portrait { transform: none; }
+.slide { box-shadow: 0 18px 40px rgba(70, 74, 100, .10); }
+.portrait svg { transition: transform .8s ease; }
+.dot { transition: width .3s ease, background .3s ease; }
+.dot[aria-current="true"] { width: 24px; border-radius: 5px; }
+
+/* Cartões de publicação e artigos */
+.pub-card { transition: transform .3s ease, box-shadow .3s ease; }
+.pub-card:hover { transform: translateY(-4px); box-shadow: 0 16px 34px rgba(70, 74, 100, .12); }
+.pub-card .ico svg { transition: transform .4s ease; }
+.pub-card:hover .ico svg { transform: scale(1.12) rotate(-4deg); }
+.art { transition: transform .35s ease, box-shadow .35s ease; }
+.art:hover { transform: translateY(-6px); box-shadow: 0 20px 36px rgba(80, 84, 110, .25); }
+.art::before { transition: transform .5s ease, opacity .5s ease; }
+.art:hover::before { transform: rotate(12deg) scale(1.1); opacity: .55; }
+.art::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,.18) 50%, transparent 70%);
+  transform: translateX(-100%); transition: transform .8s ease;
+}
+.art:hover::after { transform: translateX(100%); }
+
+/* Contato e rodapé */
+.info li { transition: transform .25s ease; }
+.info li:hover { transform: translateX(4px); }
+.social a { transition: background .2s, transform .25s; }
+.social a:hover { transform: translateY(-3px); }
+
+/* Novas ilustrações */
+.float { transform-box: view-box; animation: float 5s ease-in-out infinite; }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.hourglass { transform-box: view-box; transform-origin: 380px 210px; animation: flip 9s ease-in-out infinite; }
+@keyframes flip { 0%, 80% { transform: rotate(0); } 92%, 100% { transform: rotate(180deg); } }
+.sand { animation: breathe 1.2s ease-in-out infinite; }
+.checks path { stroke-dasharray: 1; animation: draw 6s ease-in-out infinite; }
+.checks path:nth-child(2) { animation-delay: .4s; } .checks path:nth-child(3) { animation-delay: .8s; }
+
+/* WhatsApp: pulso discreto */
+.wa::before {
+  content: ""; position: absolute; inset: 0; border-radius: 50%; background: #4CAF50; z-index: -1;
+  animation: pulse 2.8s ease-out infinite;
+}
+@keyframes pulse { 0% { transform: scale(1); opacity: .45; } 70%, 100% { transform: scale(1.55); opacity: 0; } }
+
+
+/* ---------- Nossas Unidades ---------- */
+.units { padding-block: clamp(56px, 8vw, 96px); }
+.unit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(20px, 3vw, 36px); max-width: 1000px; margin-inline: auto; }
+.unit { display: flex; flex-direction: column; background: var(--bg); border: 1px solid var(--band); border-radius: 6px; overflow: hidden; min-width: 0;
+  box-shadow: 0 14px 34px rgba(70, 74, 100, .08); transition: transform .3s ease, box-shadow .3s ease; }
+.unit:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(70, 74, 100, .14); }
+.unit-photo { position: relative; aspect-ratio: 4 / 3; max-width: 100%; overflow: hidden; background: #1A1C22; }
+.unit-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 1.2s cubic-bezier(.2,.7,.2,1); }
+.unit:hover .unit-photo img { transform: scale(1.04); }
+.gallery img { opacity: 0; transition: opacity .7s ease, transform 1.2s cubic-bezier(.2,.7,.2,1); }
+.gallery img.is-active { opacity: 1; }
+.g-dots { position: absolute; left: 0; right: 0; bottom: 12px; display: flex; justify-content: center; gap: 8px; z-index: 1; }
+.g-dot { position: relative; width: 8px; height: 8px; border-radius: 4px; border: 0; padding: 0; background: rgba(255,255,255,.55); cursor: pointer; transition: width .3s ease, background .3s ease; }
+.g-dot::after { content: ""; position: absolute; inset: -16px -6px; }
+.g-dot[aria-current="true"] { width: 22px; background: #FFFFFF; }
+.unit-body { padding: clamp(22px, 3vw, 32px); display: flex; flex-direction: column; gap: 10px; flex: 1; }
+.unit-body .unit-kicker { font-family: var(--f-head); font-size: 12px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); }
+.unit h3 { font-size: 24px; font-weight: 400; color: var(--lav); }
+.unit-body p { color: var(--muted); font-size: 15.5px; }
+.unit-hours { font-size: 14.5px !important; }
+.unit-body .pill { margin-top: auto; }
+.unit-body p + .pill { margin-top: 12px; }
+@media (max-width: 760px) { .unit-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .units { padding-block: 48px; } .unit-body .pill { align-self: stretch; } }
+@media (hover: none) { .unit:hover, .unit:hover .unit-photo img { transform: none; } }
+@supports (animation-timeline: view()) {
+  .unit { animation: slide-in linear both; animation-timeline: view(); animation-range: entry 0% entry 60%; }
+}
+
+/* ================= Celular ================= */
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  .hero { min-height: 280px; padding-block: 48px; }
+  .hero h1 { font-size: clamp(28px, 8.6vw, 36px); letter-spacing: .02em; }
+  .hero .tag { letter-spacing: .2em; font-size: 11.5px; }
+  .divider { margin-block: 16px; }
+  .feature, .team { padding-block: 44px; }
+  .feature .wrap { gap: 26px; }
+  .feature h2 { font-size: 28px; }
+  .feature p { font-size: 16px; }
+  .pill { padding: 14px 28px; font-size: 15px; }
+  .media { border-radius: 0 0 44px 0; }
+  .feature.reverse .media { border-radius: 0 44px 0 0; }
+  .slide { padding: 18px 18px 24px; }
+  .portrait { min-height: 0; aspect-ratio: 1 / 1; max-width: 100%; }
+  .slide h3 { font-size: 24px; }
+  .pubs { padding-block: 44px; }
+  .pub-card { padding: 22px; }
+  .section-title { font-size: 28px; }
+  .articles { padding-bottom: 56px; }
+  .art-grid { gap: 12px; }
+  .art { aspect-ratio: auto; min-height: 210px; padding: 14px; border-radius: 8px; }
+  .art .cat { font-size: 9.5px; letter-spacing: .1em; }
+  .art h3 { font-size: 14.5px; }
+  .art .law { font-size: 11.5px; }
+  .art::before { font-size: 44px; right: 10px; top: 6px; }
+  .contact { padding-block: 48px; }
+  .info { gap: 14px; font-size: 16px; }
+  .info a { display: inline-block; padding-block: 6px; }
+  .form .pill { width: 100%; justify-self: stretch; }
+  .site-footer { padding-block: 48px 96px; text-align: left; }
+  .copy { margin-top: 32px; }
+  .wa { width: 56px; height: 56px; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); }
+}
+@media (max-width: 360px) {
+  .art-grid { grid-template-columns: 1fr; }
+  .art { min-height: 150px; }
+}
+/* Menu aberto no celular: links grandes e fáceis de tocar */
+@media (max-width: 1100px) {
+  .nav a { font-size: 17px; padding: 16px 4px; }
+  .nav { max-height: calc(100vh - 80px); overflow-y: auto; }
+}
+/* Em telas de toque, sem efeitos de "passar o mouse" que ficam presos após o toque */
+@media (hover: none) {
+  .feature:hover .media svg, .feature:hover .media img, .slide:hover .portrait img,
+  .art:hover, .pub-card:hover, .pill:hover, .info li:hover, .social a:hover, .brand:hover .brand-logo { transform: none; }
+  .art:hover::after { transform: translateX(-100%); }
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Florêncio & Florêncio Advogados Associados — início">
+      <img class="brand-logo" src="img/logo.png" alt="Florêncio & Florêncio Advogados Associados" width="158" height="150">
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-controls="nav" aria-expanded="false" aria-label="Abrir menu"><span></span></button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#inicio" class="active">Home</a>
+      <a href="#escritorio">O Escritório</a>
+      <a href="#areas">Áreas de Atuação</a>
+      <a href="#quadro">Quadro Jurídico</a>
+      <a href="#publicacoes">Publicações</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Abertura -->
+  <section class="hero" id="inicio">
+    <div class="hero-inner">
+      <h1>Florêncio e Florêncio</h1>
+      <span class="hero-rule" aria-hidden="true"></span>
+      <p class="tag">Advogados Associados</p>
+    </div>
+    <a class="scroll-cue" href="#escritorio" aria-label="Rolar para O Escritório"><span></span></a>
+  </section>
+  <hr class="divider">
+
+  <!-- O Escritório -->
+  <section class="feature band" id="escritorio">
+    <div class="wrap">
+      <div class="text">
+        <h2>O Escritório</h2>
+        <p>O escritório Florêncio e Florêncio Advogados Associados tem sede em Terenos (MS) e uma unidade em Caracol (MS), com atendimento presencial e on-line. Atuamos nas áreas Cível (incluindo Família e Sucessões), Trabalhista, Previdenciária e Empresarial.</p>
+        <p>Nosso objetivo é prestar ao cliente um serviço personalizado, conduzido diretamente pelos advogados responsáveis, com atenção a cada detalhe do caso.</p>
+        <div class="more" id="more-escritorio"><div>
+          <p>Atuamos perante o Poder Judiciário e também de forma consultiva, orientando pessoas e empresas antes que o conflito aconteça: revisão de contratos, planejamento previdenciário e prevenção de riscos trabalhistas.</p>
+          <p>O atendimento pode ser presencial ou on-line, sempre com sigilo e comunicação regular sobre o andamento de cada processo.</p>
+        </div></div>
+        <button class="pill" type="button" data-more="more-escritorio" aria-expanded="false" aria-controls="more-escritorio">Saiba Mais</button>
+      </div>
+      <div class="media m-photo">
+        <img src="img/recepcao-do-escritorio-em-terenos-com.jpg" alt="Recepção do escritório em Terenos, com o painel da logo Florêncio &amp; Florêncio" width="1000" height="1000">
+      </div>
+    </div>
+  </section>
+
+  <!-- Nossas Unidades -->
+  <section class="units" id="unidades">
+    <div class="wrap">
+      <h2 class="section-title">Nossas Unidades</h2>
+      <div class="unit-grid">
+        <article class="unit">
+          <div class="unit-photo gallery" aria-roledescription="galeria" aria-label="Fotos da sede em Terenos">
+            <img loading="lazy" decoding="async" class="is-active" src="img/fachada-da-sede-em-terenos-durante.jpg" alt="Fachada da sede em Terenos durante o dia">
+            <img loading="lazy" decoding="async" src="img/fachada-da-sede-em-terenos-a.jpg" alt="Fachada da sede em Terenos à noite, com o letreiro iluminado">
+            <img loading="lazy" decoding="async" src="img/entrada-da-sede-em-terenos-a.jpg" alt="Entrada da sede em Terenos à noite">
+            <img loading="lazy" decoding="async" src="img/detalhe-do-monograma-ff-iluminado-na.jpg" alt="Detalhe do monograma FF iluminado na fachada">
+            <img loading="lazy" decoding="async" src="img/recepcao-do-escritorio-em-terenos-com.jpg" alt="Recepção da sede em Terenos">
+            <div class="g-dots"></div>
+          </div>
+          <div class="unit-body">
+            <p class="unit-kicker">Sede</p>
+            <h3>Terenos – MS</h3>
+            <p>Rua Pedro Celestino, 25 – Centro<br>CEP 79109-000</p>
+            <p class="unit-hours">Segunda: 7h30 às 11h30 e 13h às 17h30<br>Terça a sexta: 7h30 às 11h30 e 13h30 às 17h30</p>
+            <a class="pill" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Pedro+Celestino+25+Centro+Terenos+MS" target="_blank" rel="noopener">Como chegar</a>
+          </div>
+        </article>
+        <article class="unit">
+          <div class="unit-photo gallery" aria-roledescription="galeria" aria-label="Fotos da unidade de Caracol">
+            <img loading="lazy" decoding="async" class="is-active" src="img/fachada-da-unidade-de-caracol-durante.jpg" alt="Fachada da unidade de Caracol durante o dia">
+            <img loading="lazy" decoding="async" src="img/fachada-da-unidade-de-caracol-vista.jpg" alt="Fachada da unidade de Caracol vista de lado">
+            <img loading="lazy" decoding="async" src="img/fachada-da-unidade-de-caracol-a.jpg" alt="Fachada da unidade de Caracol à noite, com o letreiro iluminado">
+            <div class="g-dots"></div>
+          </div>
+          <div class="unit-body">
+            <p class="unit-kicker">Unidade</p>
+            <h3>Caracol – MS</h3>
+            <p>Atendimento presencial com agendamento pelo WhatsApp (67) 99287-5877.</p>
+            <a class="pill" href="https://www.google.com/maps/search/?api=1&amp;query=Flor%C3%AAncio+%26+Flor%C3%AAncio+Advogados+Caracol+MS" target="_blank" rel="noopener">Como chegar</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Área Cível -->
+  <section class="feature band reverse" id="areas">
+    <div class="wrap">
+      <div class="text">
+        <h2>Área Cível</h2>
+        <p>A área cível do escritório tem papel fundamental na busca pela justiça e na resolução de conflitos que envolvem direitos civis, patrimoniais e pessoais de pessoas e empresas.</p>
+        <div class="more" id="more-civel"><div>
+          <p>Direito de Família e Sucessões (divórcio, guarda, pensão alimentícia, inventário e partilha), contratos, responsabilidade civil e indenizações, cobranças e execuções, Direito do Consumidor e questões envolvendo imóveis.</p>
+        </div></div>
+        <button class="pill" type="button" data-more="more-civel" aria-expanded="false" aria-controls="more-civel">Saiba Mais</button>
+      </div>
+      <div class="media m-photo">
+        <img loading="lazy" decoding="async" src="img/advogado-orientando-clientes-a-mesa-com.jpg" alt="Advogado orientando clientes à mesa, com balança da justiça e martelo" style="object-position: 55% 50%;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Área Trabalhista -->
+  <section class="feature" id="area-trabalhista">
+    <div class="wrap">
+      <div class="text">
+        <h2>Área Trabalhista</h2>
+        <p>Orientação e atuação em questões trabalhistas, buscando o equilíbrio das relações de trabalho e a garantia dos direitos previstos na legislação.</p>
+        <div class="more" id="more-trabalhista"><div>
+          <p>Reclamações trabalhistas, verbas rescisórias, horas extras, reconhecimento de vínculo, acidentes de trabalho, acordos e orientação preventiva a empresas.</p>
+        </div></div>
+        <button class="pill" type="button" data-more="more-trabalhista" aria-expanded="false" aria-controls="more-trabalhista">Saiba Mais</button>
+      </div>
+      <div class="media m-photo wide">
+        <img loading="lazy" decoding="async" src="img/martelo-de-juiz-ao-lado-de.jpg" alt="Martelo de juiz ao lado de uma Carteira de Trabalho e Previdência Social" style="object-position: 50% 50%;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Área Previdenciária -->
+  <section class="feature band reverse" id="area-previdenciaria">
+    <div class="wrap">
+      <div class="text">
+        <h2>Área Previdenciária</h2>
+        <p>Orientação sobre benefícios do INSS e auditoria do histórico de contribuições, para que cada pessoa conheça seus direitos e planeje a aposentadoria com segurança.</p>
+        <div class="more" id="more-prev"><div>
+          <p>Aposentadorias, benefícios por incapacidade, pensão por morte, BPC/LOAS, revisão de benefícios, planejamento previdenciário e conferência do CNIS (Cadastro Nacional de Informações Sociais).</p>
+        </div></div>
+        <button class="pill" type="button" data-more="more-prev" aria-expanded="false" aria-controls="more-prev">Saiba Mais</button>
+      </div>
+      <div class="media m-photo">
+        <img loading="lazy" decoding="async" src="img/advogado-apresentando-documentos-a-um-casal.jpg" alt="Advogado apresentando documentos a um casal de aposentados" style="object-position: 12% 35%;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Área Empresarial -->
+  <section class="feature" id="area-empresarial">
+    <div class="wrap">
+      <div class="text">
+        <h2>Área Empresarial</h2>
+        <p>Assessoria jurídica a empresas e empreendedores, da abertura do negócio ao dia a dia, com foco na prevenção de riscos e na segurança das decisões.</p>
+        <div class="more" id="more-emp"><div>
+          <p>Constituição e alteração de empresas, contratos sociais e acordos de sócios, elaboração e revisão de contratos comerciais, cobranças e consultoria preventiva.</p>
+        </div></div>
+        <button class="pill" type="button" data-more="more-emp" aria-expanded="false" aria-controls="more-emp">Saiba Mais</button>
+      </div>
+      <div class="media m-photo">
+        <img loading="lazy" decoding="async" src="img/aperto-de-mao-sobre-a-mesa.jpg" alt="Aperto de mão sobre a mesa com contrato e relatórios" style="object-position: 50% 45%;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Quadro Jurídico -->
+  <section class="feature band reverse" id="quadro">
+    <div class="wrap">
+      <div class="text">
+        <h2>Quadro Jurídico</h2>
+        <p>O quadro jurídico do escritório Florêncio e Florêncio Advogados Associados é formado por advogados com formação complementar em diversas áreas do Direito, prontos para oferecer orientação jurídica cuidadosa e representação eficaz aos nossos clientes.</p>
+        <a class="pill" href="#equipe">Saiba Mais</a>
+      </div>
+      <div class="media m-team" aria-hidden="true">
+        <svg viewBox="0 0 500 400" preserveAspectRatio="xMidYMid slice">
+          <!-- mesa de reunião -->
+          <rect x="60" y="60" width="380" height="8" fill="#FFFFFF" opacity=".8"/>
+          <circle class="lamp" cx="250" cy="55" r="18" fill="#FFFFFF" opacity=".7"/>
+          <ellipse cx="250" cy="290" rx="190" ry="44" fill="#6A5543"/>
+          <ellipse cx="250" cy="282" rx="190" ry="44" fill="#826A55"/>
+          <!-- cadeiras -->
+          <g fill="#3E3944">
+            <rect x="85" y="190" width="56" height="70" rx="12"/><rect x="175" y="178" width="56" height="70" rx="12"/>
+            <rect x="269" y="178" width="56" height="70" rx="12"/><rect x="359" y="190" width="56" height="70" rx="12"/>
+          </g>
+          <!-- documentos -->
+          <rect x="180" y="268" width="60" height="18" rx="2" fill="#F4F4F7" transform="rotate(-6 210 277)"/>
+          <rect x="268" y="270" width="54" height="16" rx="2" fill="#F4F4F7" transform="rotate(5 295 278)"/>
+          <rect x="0" y="360" width="500" height="40" fill="#C9CCD8"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- Advogados (carrossel) -->
+  <section class="team" id="equipe" aria-roledescription="carrossel" aria-label="Advogados do escritório">
+    <div class="wrap">
+      <div class="carousel">
+        <div class="slides" id="slides">
+          <article class="slide is-active" aria-label="1 de 3">
+            <div class="bio">
+              <h3>Dr. Paulo Florêncio</h3>
+              <p class="role">Sócio Fundador</p>
+              <p class="txt">A fundação do escritório é pautada na ética e na busca incansável por justiça.</p>
+              <p class="txt">O Dr. Paulo Florêncio traz a visão estratégica de sócio fundador, com foco em oferecer soluções jurídicas seguras aos clientes.</p>
+            </div>
+            <div class="portrait">
+              <img loading="lazy" decoding="async" src="img/dr-paulo-florencio-em-seu-escritorio.jpg" alt="Dr. Paulo Florêncio em seu escritório">
+            </div>
+          </article>
+          <article class="slide" aria-label="2 de 3">
+            <div class="bio">
+              <h3>Dr. Gustavo Florêncio</h3>
+              <p class="role">Sócio Fundador</p>
+              <p class="txt">Pós-graduado em Direito do Trabalho e em Direito Previdenciário pela PUC Minas.</p>
+              <p class="txt">À frente da estrutura do escritório, une a experiência de sócio fundador à especialização técnica, com compromisso com o direito de quem trabalha e produz.</p>
+            </div>
+            <div class="portrait">
+              <img loading="lazy" decoding="async" src="img/dr-gustavo-florencio-sentado-a-sua.jpg" alt="Dr. Gustavo Florêncio sentado à sua mesa">
+            </div>
+          </article>
+          <article class="slide" aria-label="3 de 3">
+            <div class="bio">
+              <h3>Dra. Maiara Schutz</h3>
+              <p class="role">Advogada</p>
+              <p class="txt">Especialista em Direito de Família e Sucessões e pós-graduada em Direito Civil e Processo Civil.</p>
+              <p class="txt">O cuidado com o patrimônio e as relações familiares exige técnica e sensibilidade, e é com esse olhar que conduz as causas mais delicadas do escritório.</p>
+            </div>
+            <div class="portrait">
+              <img loading="lazy" decoding="async" src="img/dra-maiara-schutz.jpg" alt="Dra. Maiara Schutz">
+            </div>
+          </article>
+        </div>
+        <div class="car-nav">
+          <button class="car-btn" id="prev" type="button" aria-label="Advogado anterior"><svg viewBox="0 0 16 16"><path d="M10 2 L4 8 L10 14" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+          <div class="dots" id="dots"></div>
+          <button class="car-btn" id="next" type="button" aria-label="Próximo advogado"><svg viewBox="0 0 16 16"><path d="M6 2 L12 8 L6 14" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publicações -->
+  <section class="pubs band" id="publicacoes" style="background: var(--band);">
+    <div class="wrap">
+      <div class="pub-grid">
+        <article class="pub-card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 40 40"><rect x="9" y="5" width="22" height="30" rx="2" fill="none" stroke="#FFFFFF" stroke-width="2"/><line x1="14" y1="13" x2="26" y2="13" stroke="#FFFFFF" stroke-width="2"/><line x1="14" y1="19" x2="26" y2="19" stroke="#FFFFFF" stroke-width="2"/><line x1="14" y1="25" x2="22" y2="25" stroke="#FFFFFF" stroke-width="2"/></svg></div>
+          <div>
+            <h3>Publicações Jurídicas</h3>
+            <p>Conheça nossos artigos, análises e atualizações sobre a legislação e a jurisprudência nas áreas em que atuamos.</p>
+            <a class="pill" href="#artigos">Saiba Mais</a>
+          </div>
+        </article>
+        <article class="pub-card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M6 9 Q13 6 20 10 Q27 6 34 9 L34 32 Q27 29 20 33 Q13 29 6 32 Z" fill="none" stroke="#FFFFFF" stroke-width="2"/><line x1="20" y1="10" x2="20" y2="33" stroke="#FFFFFF" stroke-width="2"/></svg></div>
+          <div>
+            <h3>Orientações</h3>
+            <p>Guias práticos, em linguagem acessível, sobre os temas que mais geram dúvidas em Direito Civil, Trabalhista e Previdenciário.</p>
+            <a class="pill" href="#artigos">Saiba Mais</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="articles" id="artigos" style="padding-top: clamp(48px, 7vw, 88px);">
+    <div class="wrap">
+      <h2 class="section-title">Artigos e Publicações</h2>
+      <div class="art-grid">
+        <article class="art"><span class="cat">Trabalhista</span><h3>Verbas rescisórias: o que receber ao sair da empresa</h3><span class="law">CLT, art. 477</span></article>
+        <article class="art"><span class="cat">Previdenciário</span><h3>CNIS: por que conferir seu histórico de contribuições</h3><span class="law">Lei nº 8.213/1991</span></article>
+        <article class="art"><span class="cat">Previdenciário</span><h3>Aposentadoria depois da Reforma: regras de transição</h3><span class="law">EC nº 103/2019</span></article>
+        <article class="art"><span class="cat">Cível</span><h3>Cobranças indevidas e direito à devolução</h3><span class="law">CDC, art. 42</span></article>
+        <article class="art"><span class="cat">Trabalhista</span><h3>Horas extras: limites e forma de pagamento</h3><span class="law">CLT, art. 59</span></article>
+        <article class="art"><span class="cat">Empresarial</span><h3>Contrato social: cláusulas essenciais</h3><span class="law">Código Civil, art. 997</span></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="contact" id="contato">
+    <div class="wrap">
+      <div>
+        <h2>Contato</h2>
+        <p class="lede">Agende uma consulta pelo WhatsApp ou pelo formulário. Atendimento presencial em Terenos e Caracol, ou on-line.</p>
+        <ul class="info">
+          <li><span class="k">Telefone / WhatsApp</span><a href="https://wa.me/5567992875877" target="_blank" rel="noopener">(67) 99287-5877</a></li>
+          <li><span class="k">E-mail</span><a class="mail-link" href="mailto:florencioeflorencio_adv@hotmail.com">florencioeflorencio_adv@hotmail.com</a></li>
+          <li><span class="k">Sede</span>Rua Pedro Celestino, 25 – Centro<br>Terenos – MS · CEP 79109-000 · <a href="#unidades">ver fotos</a></li>
+          <li><span class="k">Unidade</span>Caracol – MS · <a href="#unidades">ver fotos</a></li>
+          <li><span class="k">Horário</span>Segunda: 7h30 às 11h30 e 13h às 17h30<br>Terça a sexta: 7h30 às 11h30 e 13h30 às 17h30</li>
+          <li><span class="k">Redes</span><a href="https://www.instagram.com/fef_advocacia/" target="_blank" rel="noopener">@fef_advocacia</a></li>
+        </ul>
+      </div>
+      <form class="form" id="contactForm" novalidate>
+        <div class="field"><label for="f-nome">Nome</label><input id="f-nome" name="nome" autocomplete="name"></div>
+        <div class="field"><label for="f-tel">Telefone</label><input id="f-tel" name="telefone" type="tel" autocomplete="tel" inputmode="tel"></div>
+        <div class="field full"><label for="f-email">E-mail</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+        <div class="field full"><label for="f-area">Assunto</label>
+          <select id="f-area" name="area">
+            <option>Cível</option><option>Família e Sucessões</option><option>Trabalhista</option><option>Previdenciário</option><option>Empresarial</option><option>Outro assunto</option>
+          </select>
+        </div>
+        <div class="field full"><label for="f-msg">Mensagem</label><textarea id="f-msg" name="mensagem"></textarea></div>
+        <label class="consent" for="f-lgpd"><input type="checkbox" id="f-lgpd"> Autorizo o uso dos meus dados apenas para retorno deste contato, conforme a LGPD.</label>
+        <button class="pill" type="submit">Enviar</button>
+        <div class="form-status" id="formStatus" hidden></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <p class="foot-name">Florêncio e Florêncio Advogados Associados</p>
+        <div class="foot-links">
+          <a href="#contato">Termos e Condições de Uso</a>
+          <a href="#contato">Política de Privacidade</a>
+        </div>
+      </div>
+      <div>
+        <p>Tel./WhatsApp: (67) 99287-5877</p>
+        <p class="mail-link">florencioeflorencio_adv@hotmail.com</p>
+        <p style="margin-top:10px">Rua Pedro Celestino, 25 – Centro,<br>Terenos – MS – CEP 79109-000</p>
+        <p style="margin-top:10px">Unidade Caracol – MS</p>
+      </div>
+      <div>
+        <p>Siga o escritório</p>
+        <div class="social">
+          <a href="https://www.instagram.com/fef_advocacia/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 2c-2.7 0-3 0-4.1.1C4.3 2.2 2.2 4.3 2.1 7.9 2 9 2 9.3 2 12s0 3 .1 4.1c.1 3.6 2.2 5.7 5.8 5.8 1.1.1 1.4.1 4.1.1s3 0 4.1-.1c3.6-.1 5.7-2.2 5.8-5.8.1-1.1.1-1.4.1-4.1s0-3-.1-4.1c-.1-3.6-2.2-5.7-5.8-5.8C15 2 14.7 2 12 2zm0 1.8c2.7 0 3 0 4 .1 2.6.1 3.9 1.4 4 4 .1 1 .1 1.3.1 4s0 3-.1 4c-.1 2.6-1.4 3.9-4 4-1 .1-1.3.1-4 .1s-3 0-4-.1c-2.6-.1-3.9-1.4-4-4-.1-1-.1-1.3-.1-4s0-3 .1-4c.1-2.6 1.4-3.9 4-4 1-.1 1.3-.1 4-.1z"/></svg></a>
+          <a href="https://www.facebook.com/p/Flor%C3%AAncio-e-Flor%C3%AAncio-Advogados-Associados-61558688937364/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.8c0-.9.3-1.5 1.6-1.5h1.7V3.4c-.3 0-1.3-.1-2.5-.1-2.4 0-4.1 1.5-4.1 4.2v2.3H7.5V13h2.7v8z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© <span id="year">2026</span> Florêncio e Florêncio Advogados Associados</span>
+      <span>Conteúdo de caráter informativo, conforme o Provimento nº 205/2021 do CFOAB.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/5567992875877" target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+  <img loading="lazy" decoding="async" src="img/whatsapp.png" alt="" width="60" height="60">
+</a>
+
+<script>
+(function () {
+  var WHATSAPP = "5567992875877"; // número do escritório: DDI + DDD + número, só dígitos
+
+  // Menu móvel
+  var btn = document.getElementById("menuBtn"), nav = document.getElementById("nav");
+  btn.addEventListener("click", function () {
+    var open = nav.classList.toggle("open");
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  var links = nav.querySelectorAll("a");
+  links.forEach(function (a) {
+    a.addEventListener("click", function () { nav.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); });
+  });
+
+  // Destaca no menu a seção visível
+  var map = { inicio: 0, escritorio: 1, unidades: 1, areas: 2, "area-trabalhista": 2, "area-previdenciaria": 2, "area-empresarial": 2, quadro: 3, equipe: 3, publicacoes: 4, artigos: 4, contato: 5 };
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting && e.target.id in map) {
+          links.forEach(function (l) { l.classList.remove("active"); });
+          links[map[e.target.id]].classList.add("active");
+        }
+      });
+    }, { rootMargin: "-45% 0px -50% 0px" });
+    Object.keys(map).forEach(function (id) { var el = document.getElementById(id); if (el) io.observe(el); });
+  }
+
+  // "Saiba Mais" que expande o texto
+  document.querySelectorAll("[data-more]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var box = document.getElementById(b.getAttribute("data-more"));
+      var open = box.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      b.textContent = open ? "Mostrar menos" : "Saiba Mais";
+    });
+  });
+
+  // Carrossel do quadro jurídico
+  var slides = Array.prototype.slice.call(document.querySelectorAll(".slide"));
+  var dotsBox = document.getElementById("dots"), idx = 0, timer;
+  slides.forEach(function (_, i) {
+    var d = document.createElement("button");
+    d.className = "dot"; d.type = "button"; d.setAttribute("aria-label", "Ir para o advogado " + (i + 1));
+    d.addEventListener("click", function () { go(i); restart(); });
+    dotsBox.appendChild(d);
+  });
+  var dots = dotsBox.querySelectorAll(".dot");
+  function go(i) {
+    idx = (i + slides.length) % slides.length;
+    slides.forEach(function (s, j) { s.classList.toggle("is-active", j === idx); s.setAttribute("aria-hidden", j === idx ? "false" : "true"); });
+    dots.forEach(function (d, j) { d.setAttribute("aria-current", j === idx ? "true" : "false"); });
+  }
+  function restart() {
+    clearInterval(timer);
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) timer = setInterval(function () { go(idx + 1); }, 7000);
+  }
+  document.getElementById("prev").addEventListener("click", function () { go(idx - 1); restart(); });
+  document.getElementById("next").addEventListener("click", function () { go(idx + 1); restart(); });
+  // Arrastar para o lado no celular
+  var sx = null, sy = 0, box = document.getElementById("slides");
+  box.addEventListener("touchstart", function (e) { sx = e.touches[0].clientX; sy = e.touches[0].clientY; }, { passive: true });
+  box.addEventListener("touchend", function (e) {
+    if (sx === null) return;
+    var dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) { go(idx + (dx < 0 ? 1 : -1)); restart(); }
+    sx = null;
+  }, { passive: true });
+  go(0); restart();
+
+  // Galerias das unidades (Terenos e Caracol)
+  document.querySelectorAll(".gallery").forEach(function (gal, n) {
+    var imgs = gal.querySelectorAll("img"), box = gal.querySelector(".g-dots"), i0 = 0, t;
+    imgs.forEach(function (_, i) {
+      var d = document.createElement("button");
+      d.className = "g-dot"; d.type = "button"; d.setAttribute("aria-label", "Ver foto " + (i + 1));
+      d.addEventListener("click", function () { show(i); again(); });
+      box.appendChild(d);
+    });
+    var dots = box.querySelectorAll(".g-dot");
+    function show(i) {
+      i0 = (i + imgs.length) % imgs.length;
+      imgs.forEach(function (im, j) { im.classList.toggle("is-active", j === i0); });
+      dots.forEach(function (d, j) { d.setAttribute("aria-current", j === i0 ? "true" : "false"); });
+    }
+    function again() {
+      clearInterval(t);
+      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) t = setInterval(function () { show(i0 + 1); }, 4500 + n * 900);
+    }
+    var x0 = null, y0 = 0;
+    gal.addEventListener("touchstart", function (e) { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+    gal.addEventListener("touchend", function (e) {
+      if (x0 === null) return;
+      var dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+      if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) { show(i0 + (dx < 0 ? 1 : -1)); again(); }
+      x0 = null;
+    }, { passive: true });
+    show(0); again();
+  });
+
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Sombra do menu ao rolar
+  var header = document.querySelector(".site-header");
+  function onScroll() { header.classList.toggle("scrolled", window.scrollY > 10); }
+  window.addEventListener("scroll", onScroll, { passive: true }); onScroll();
+
+  // Formulário: monta a mensagem para envio pelo WhatsApp
+  var form = document.getElementById("contactForm"), status = document.getElementById("formStatus");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var nome = form.nome.value.trim(), tel = form.telefone.value.trim(), msg = form.mensagem.value.trim();
+    status.hidden = false;
+    if (!nome || !tel || !msg) { status.innerHTML = '<span class="err">Preencha nome, telefone e mensagem para enviar.</span>'; return; }
+    if (!document.getElementById("f-lgpd").checked) { status.innerHTML = '<span class="err">Marque a autorização de uso dos dados para enviar.</span>'; return; }
+    var texto = "Olá, meu nome é " + nome + ".\nAssunto: " + form.area.value + "\nTelefone: " + tel +
+      (form.email.value.trim() ? "\nE-mail: " + form.email.value.trim() : "") + "\n\n" + msg;
+    status.innerHTML = 'Mensagem pronta. <a href="https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(texto) + '" target="_blank" rel="noopener">Abrir no WhatsApp e enviar</a>';
+  });
+})();
+</script>
+
+</body>
+</html>
